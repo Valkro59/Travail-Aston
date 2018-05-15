@@ -6,28 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <!-- Pour rajouter la bibliothèque fontawesome -->
+    <link rel="stylesheet" href="todo.css">
     <title>Todo List</title>
 
 </head>
 
 <body>
     <div class="container">
-        <h1>Todo List</h1>
+        <h1 class="pt-2">Todo List</h1>
         <div class="todo">
 
             <div class="form-group"></div>
             <input class="form-control todo-input" 
                    type="text" 
                    placeholder="Saisissez une tache ...">
-            <div class="row">
-                <ul class="todo-list">
 
-                    <li>Tache 1</li>
-                    <li>Tache 2</li>
+            <ul class="list-group todo-list"></ul>
+            <!-- les classes proviennent de bootstrap -->
 
-                </ul>
-
-            </div>
 
         </div>
     </div>
@@ -37,5 +35,3 @@
 </body>
 
 </html>
-
-
